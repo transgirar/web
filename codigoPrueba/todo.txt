@@ -1,0 +1,8 @@
+Poner logo en el header
+Poner fondo feo atrás
+Agregar otro botón "Sobre Nosotros" -> Quienes somos (1ra prte del doc) -> Valores -> Políticas del sistema integrado de gestión
+Agregar funcionalidad de conocer más para que lo lleve a sobre nosotros
+
+Aliados -> emanuel pendiente de buscar la lista
+
+en el número hay que redireccionar a wpp (3147941756) con un mensaje que viene directamente de transgirar.com
