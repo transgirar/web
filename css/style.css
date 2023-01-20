@@ -169,6 +169,54 @@ section{
     font-size: 5rem;
 }
 
+/* HomeP */
+.homeP{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    padding-top: 8rem;
+    /* background: var(--bg); */
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.homeP .content{
+    background: var(--bg);
+    /* opacity: 0.7; */
+    border-radius: 1.5rem;
+    flex:1 1 20rem;
+    text-align: center;
+    padding: 3rem;
+}
+
+.homeP .image{
+    flex:1 1 25rem;
+}
+
+.homeP .image img{
+    width: 100%;
+}
+
+.homeP .content h3{
+    font-size: 3.5rem;
+    color:var(--black);
+    line-height: 1.8;
+}
+
+.homeP .content p{
+    font-size: 1.8rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding:3.5rem 0;
+}
+
+.homeP .btn-mas {
+    line-height: 4.8;
+    font-size: 5rem;
+}
+
 .mision .content{
     margin-left: auto;
     margin-right: auto;
@@ -178,7 +226,7 @@ section{
 }
 
 .mision .content p{
-    font-size:1.5rem;
+    font-size: 2.2rem;
     color:var(--black);
     line-height: 1.8;
     padding: 1rem 0;
@@ -245,7 +293,7 @@ section{
 }
 
 .vision .row .content p{
-    font-size:1.5rem;
+    font-size:2.2rem;
     color:var(--black);
     line-height: 1.8;
     padding: 1rem 0;
@@ -310,7 +358,7 @@ section{
 }
 
 .nosotros .row .content p{
-    font-size:1.5rem;
+    font-size:1.8rem;
     color:var(--light-color);
     line-height: 1.8;
     padding: 1rem 0;
@@ -347,11 +395,205 @@ section{
     padding-top: 1rem;
 }
 
-.nosotros .row .content .icons-container .icons a{
-    color: 0;
+.nosotros .row .content .icons-container .icons h3:hover{
+    color: var(--bg);
 }
 
-/* Aliados estaban en minmax 23 y height 35 */
+/* Valores */
+
+.valores .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.valores .row .image{
+    flex:1 1 55rem;
+    padding: 2rem;
+}
+
+.valores .row .image img{
+    width: 100%;
+}
+
+.valores .row .content{
+    text-align: center;
+    flex:1 1 45rem;
+}
+
+.valores .row .content .title{
+    font-size:3rem;
+    color:var(--black);
+}
+
+.valores .row .content p{
+    font-size:1.8rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.valores .row .content .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-top: 2rem;
+}
+
+.valores .row .content .icons-container .icons{
+    flex:1 1 15rem;
+    border-radius: .5rem;
+    border:var(--border);
+    padding:1.5rem;
+    text-align: center;
+}
+
+.valores .row .content .icons-container .icons i{
+    border-radius: 50%;
+    background: var(--bg);
+    color:var(--main-color);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+
+.valores .row .content .icons-container .icons h3{
+    color:var(--light-color);
+    font-size: 1.6rem;
+    padding-top: 1rem;
+}
+
+.valores .row .content .icons-container .icons h3:hover{
+    color: var(--bg);
+}
+
+.valores .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    gap:1.5rem;
+}
+
+.valores .box-container .box{
+    height: 18em;
+    border-radius: .5rem;
+    overflow:hidden;
+    position: relative;
+    box-shadow: var(--box-shadow);
+}
+
+.valores .box-container .box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+    text-align: center;
+}
+
+.valores .box-container .box p{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    text-align: center;
+}
+
+/* Sistema */
+
+.sistema .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+}
+
+.sistema .row .image{
+    flex:1 1 55rem;
+    padding: 2rem;
+}
+
+.sistema .row .image img{
+    width: 100%;
+}
+
+.sistema .row .content{
+    text-align: center;
+    flex:1 1 45rem;
+}
+
+.sistema .row .content .title{
+    font-size:3rem;
+    color:var(--black);
+}
+
+.sistema .row .content p{
+    font-size:1.8rem;
+    color:var(--light-color);
+    line-height: 1.8;
+    padding: 1rem 0;
+}
+
+.sistema .row .content .icons-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-top: 2rem;
+}
+
+.sistema .row .content .icons-container .icons{
+    flex:1 1 15rem;
+    border-radius: .5rem;
+    border:var(--border);
+    padding:1.5rem;
+    text-align: center;
+}
+
+.sistema .row .content .icons-container .icons i{
+    border-radius: 50%;
+    background: var(--bg);
+    color:var(--main-color);
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+}
+
+.sistema .row .content .icons-container .icons h3{
+    color:var(--light-color);
+    font-size: 1.6rem;
+    padding-top: 1rem;
+}
+
+.sistema .row .content .icons-container .icons h3:hover{
+    color: var(--bg);
+}
+
+.sistema .box-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    gap:1.5rem;
+}
+
+.sistema .box-container .box{
+    height: 26em;
+    border-radius: .5rem;
+    overflow:hidden;
+    position: relative;
+    box-shadow: var(--box-shadow);
+    padding: 3rem;
+}
+
+.sistema .box-container .box h3 {
+    font-size: 2.5rem;
+    color: var(--black);
+    text-align: center;
+}
+
+.sistema .box-container .box p{
+    font-size: 1.5rem;
+    color:var(--light-color);
+    text-align: center;
+}
+
+
+/* Aliados */
 
 .aliados .box-container{
     display:grid;
