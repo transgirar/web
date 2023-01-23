@@ -476,11 +476,12 @@ section{
 }
 
 .valores .box-container .box{
-    height: 18em;
+    height: 24em;
     border-radius: .5rem;
     overflow:hidden;
     position: relative;
     box-shadow: var(--box-shadow);
+    padding-top: 1.5rem;
 }
 
 .valores .box-container .box h3 {
