@@ -603,7 +603,7 @@ section{
 }
 
 .aliados .box-container .box{
-    height: 10em;
+    height: 11em;
     border-radius: .5rem;
     overflow:hidden;
     position: relative;
@@ -661,7 +661,7 @@ section{
     position: absolute;
     top:0; left: 0;
     background: #fff;
-    clip-path: circle(30% at 93% 0);
+    clip-path: circle(0% at 93% 0);
     transition: .3s linear;
 }
 
